@@ -64,26 +64,5 @@ public class AddAvenger extends HttpServlet {
 
     }
 
-    private void writeHeader(final PrintWriter out) {
-        out.println("<!DOCTYPE html>");
-        out.println("<html>");
-        out.println("<head>");
-        out.println("<title>Choose your pizze size</title>");
-        out.println("</head>");
-        out.println("<body>");
-
-    }
-
-    private void writeFooter(final PrintWriter out) {
-        out.println("<a href=\"index.html\">Back to index</a>\n");
-        out.println("</body>");
-        out.println("</html>");
-    }
-
-    @Override
-    public String getServletInfo() {
-        return "Short description";
-    }// </editor-fold>
-
 }
 
