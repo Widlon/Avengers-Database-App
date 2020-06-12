@@ -35,9 +35,9 @@ public class PowerSourceDb {
                 conn = DBConnector.getConnection(driver, dbUrl);
             } else {
                 String connUrl = "jdbc:postgresql://localhost/";
-                String database = "Chen_Ciftarslan_a2";
+                String database = "Widlon";
                 String user = "postgres";
-                String pass = "0316";
+                String pass = "Nishu123";
 
                 conn = DBConnector.getConnection(driver, connUrl,
                         database, user, pass);
